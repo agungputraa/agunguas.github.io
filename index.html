@@ -400,8 +400,8 @@
 
           </div>
 
-          <div class="col-lg-8">
-            <form method="post" role="form" class="php-email-form">
+           <div class="col-lg-8">
+            <form method="post" role="form" class="php-email-form" id="contact">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nama Kamu" required>
@@ -414,9 +414,9 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Isi Pesan" required></textarea>
+                <textarea class="form-control" name="message" rows="7" id="isi" placeholder="Isi Pesan" required></textarea>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" onclick="kirim()">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -496,6 +496,25 @@
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
+                     
+  <!--Firebase Contact-->
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+<script>
+  // Configurasi Firebase
+  var firebaseConfig = {
+  apiKey: "AIzaSyBJobjg2EgWm_CVnJF1pzWCJQ1yo-smI1M",
+  authDomain: "apk-to-web.firebaseapp.com",
+  databaseURL: "https://apk-to-web-default-rtdb.firebaseio.com",
+  projectId: "apk-to-web",
+  storageBucket: "apk-to-web.appspot.com",
+  messagingSenderId: "223045343563",
+  appId: "1:223045343563:web:4696d19d2e53c8aa6130ce",
+  measurementId: "G-KGWEZCEJEC"
+  };
+  // Menginisialisasikan Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>                   
 
   <!-- JS Files -->
   <script src="javaS/bootstrap.bundle.min.js"></script>
@@ -510,6 +529,9 @@
   <!-- Main JS File -->
   <script src="javaS/main.js"></script>
   <script src="javaS/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </body>
