@@ -290,3 +290,28 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+
+/*Kirim Chat Firebase*/
+function kirim(){
+  //Kirim Postingan 
+  var name=document.getElementById('name').value;
+  var email=document.getElementById('email').value;
+  var subject=document.getElementById('subject').value;
+  var isi=document.getElementById('isi').value;
+  firebase.database().ref('Pesan/').push().set({
+    nama:name,
+    imel:email,
+    sub:subject,
+    isiPesan:isi,
+},function(error){
+  if(error){
+      alert("Pesan Tidak Terkirim...");
+  }else{
+      alert("Pesan Berhasil Terkirim...");
+      document.getElementById('contact').reset();
+      getdata();
+  }
+});
+
+}
