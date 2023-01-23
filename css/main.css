@@ -23,7 +23,6 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color:rgba(0, 106,255,0.4) ;
 }
 
 a {
