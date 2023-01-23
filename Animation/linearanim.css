@@ -1,6 +1,6 @@
 
 body{
-	background: blue;
+	background: linear-gradient(45deg,black,#0d2252,black,blue);
 }
 
 
