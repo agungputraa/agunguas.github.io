@@ -4498,12 +4498,5 @@
       "key": "Zilong-NVF_l8LHSBECYN0mZz_",
       "skin_name": "Summer Waves",
       "sort": "3"
-    },
-    "Recall_1": {
-      "download": "https://github.com/Gtinjector/Recall/blob/main/recall%20backup.zip?raw=true",
-      "hero": "Backup Recall",
-      "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgscGclc6Hb54MqSm19IYg88wiTMv8Jk8LilZacLEC2x5c72ytBZ5SJ2Arn0V0VhfBEi5nIWNcYOul4n5RpW12xchXRusuJCGJiLalZCzIFJYZnPSnD1rBkKbYjyj23dz0pY_PCxlOOsj29F3jdbmk8HugYpNqLk6b35ufhZRQVNz60UCDtICS98f7e/s1280/maxresdefault.jpg",
-      "skin_name": "Backup Recall",
-      "sort": "3"
-    }
+    }   
   }
