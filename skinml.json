@@ -4777,5 +4777,25 @@
       "key": "Super Return -444",
       "skin_name": "B",
       "sort": "0"
+    },
+    "AnehGamingOfficial-NWGaHpVQKJQ3A5NZ7iF": {
+      "download": "https://github.com/rahasia55/AG-INTRO/raw/main/collab.zip",
+      "hero": "Intro",
+      "img": "https://github.com/bahrankemal/acak/raw/main/Screenshot_2023-01-26-22-59-59-63_01c085aa929b1599fddd4ea6d6812c2d-picsay.jpg",
+      "img2": "https://github.com/bahrankemal/acak/raw/main/Screenshot_2023-01-26-22-59-59-63_01c085aa929b1599fddd4ea6d6812c2d-picsay.jpg",
+      "key": "AnehGamingOfficial-NWGaHpVQKJQ3A5NZ7iF",
+      "preview": "https://github.com/gemble-dotcom/urban-octo-tribble/raw/main/intro/Collab%20Splash.mp4",
+      "skin_name": "Collab",
+      "sort": "1"
+    },
+    "AnehGamingOfficial-NWGaxu25Xakd63YPB9z": {
+      "download": "https://github.com/rahasia55/AG-INTRO/raw/main/bakcup%20intro.zip",
+      "hero": "Intro",
+      "img": "https://github.com/rahasia55/fotointro/raw/main/foto34.png",
+      "img2": "https://github.com/rahasia55/fotointro/raw/main/foto34.png",
+      "key": "AnehGamingOfficial-NWGaxu25Xakd63YPB9z",
+      "preview": "https://youtu.be/aJGhuD4hyag",
+      "skin_name": "Backup Intro",
+      "sort": "0"
     }
   }
